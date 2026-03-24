@@ -8,22 +8,15 @@
 
 <style>
 
-.reveal{
-opacity:0;
-transform:translateY(40px);
-transition:all 0.8s ease;
-}
-
-.reveal.active{
-opacity:1;
-transform:translateY(0);
-}
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:Arial;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
@@ -44,16 +37,14 @@ position:fixed;
 top:0;
 left:0;
 width:100%;
-}
+
 display:flex;
 justify-content:space-between;
 align-items:center;
 
 padding:15px 30px;
-
 background:rgba(0,0,0,0.3);
 backdrop-filter:blur(10px);
-
 z-index:10;
 }
 
@@ -67,9 +58,13 @@ color:#38bdf8;
 
 nav a{
 color:white;
-margin-left:15px;
 text-decoration:none;
+margin-left:20px;
+font-weight:500;
 }
+
+</style>
+
 
 .hero{
 text-align:center;
