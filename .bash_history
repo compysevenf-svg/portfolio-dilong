@@ -260,3 +260,138 @@ ls
 git add .
 git commit -m "add website"
 git push origin main
+nano index.html
+git add .
+git commit -m "upgrade website"
+git push origin main
+nano index.html
+git add .
+git commit -m "upgrade website"
+git push origin main
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fadil Developer</title>
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#0f172a,#020617);
+color:white;
+text-align:center;
+}
+header{
+padding:120px 20px;
+}
+h1{
+font-size:50px;
+background:linear-gradient(90deg,#38bdf8,#a78bfa);
+-webkit-background-clip:text;
+color:transparent;
+}
+p{
+color:#94a3b8;
+font-size:18px;
+}
+button{
+margin-top:20px;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:#38bdf8;
+color:black;
+font-size:18px;
+cursor:pointer;
+transition:0.3s;
+}
+button:hover{
+transform:scale(1.1);
+background:#a78bfa;
+}
+section{
+padding:80px 20px;
+}
+.card{
+background:#0f172a;
+padding:30px;
+margin:20px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Fadil Irfandi</h1>
+<p>Frontend Developer • Web3 Builder • Future Programmer</p>
+<button>View My Work</button>
+</header>
+<section>
+<h2>My Skills</h2>
+<div class="card">
+HTML
+</div>
+<div class="card">
+CSS
+</div>
+<div class="card">
+JavaScript
+</div>
+</section>
+<section>
+<h2>Contact</h2>
+<p>Email: fadil@email.com</p>
+</section>
+</body>
+nano index.html
+git add .
+git commit -m "upgrade website"
+git push origin main
+git push
+git remote -v
+git remote add origin https://github.com/compysevenf-svg/portfolio.git
+git push -u origin main
+git remote -v
+git remote set-url origin https://github.com/compysevenf-svg/portfolio.git
+git remote -v
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories --no-rebase
+git push origin main
+nano index.html
+git add.
+git commit -m "fix merge"
+git push origin main
+nano index.html
+git add index.html
+git commit -m "fix merge conflict"
+git push origin main
+nano index.html
+git add .
+git commit -m "upgrade portofolio animation"
+git push origin main
+nano index html
+index.html
+nano index.html
+git add .
+git commit -m "test update"
+git push origin main
+nano index.html
+git add .
+git commit -m "add hacker terminal"
+git push origin main
+cd portfolio
+ls
+git remote add origin https://github.com/compysevenf-svg/portfolio-dilong.git
+git branch -M main
+git push -u origin main
+git remote set-url origin https://github.com/compysevenf-svg/portfolio-dilong.git
+git push -u origin main
+cd belajar-frontend
+ls
+git init
+git add .
+git commit -m "first website"
+git remote add origin https://github.com/compysevenf-svg/portfolio-dilong.git
+git branch -M main
+git push -u origin main
